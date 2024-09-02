@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: black;
+  color: white;
+  height: 60px; 
+  font-size: 2rem; 
+  font-weight: bold;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
